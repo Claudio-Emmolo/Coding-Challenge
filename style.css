@@ -1,0 +1,103 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif, verdana;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* DEFINIZIONE SPAZIO WEB - CREAZIONE SCHERMATA NERA */
+
+.schermata{
+  margin: auto;
+  width: 1100px ;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  padding: 80px 70px;
+  border-radius: 15px;
+}
+
+
+/* HEADER */
+#logo{
+  width: 200px;
+}
+
+#title{
+  font-size: 30px;
+  font-weight: bold;
+  color: #00ff00;
+}
+
+.hed{
+  margin: auto;
+  text-align: center;
+}
+
+
+/* BARRA DI NAVIGAZIONE */
+.nav{
+  background-color: #00ff00;
+  padding: 10px;
+  text-align: center;
+}
+.nav button:hover{
+  text-decoration: underline;
+  color: green;
+}
+
+
+/* CONTENUTO  */
+.monopattini{
+  margin-top: 20px;
+}
+
+.titlenamemono{
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.subtitle{
+  display: block;
+  color: white;
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.caricatxt{
+  display: block;
+  color: white;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+
+#caricaGino{  /* BARRA CARICA */
+  margin-top: 3px;
+  width: 50%;
+  height: 25px;
+  background-color: #dbb839;
+  border-radius: 5px;
+}
+
+#caricaMike{ /* BARRA CARICA */
+  margin-top: 3px;
+  width: 80%;
+  height: 25px;
+  background-color: #23e75d;
+  border-radius: 5px;
+}
+
+#caricaFede{ /* BARRA CARICA */
+  margin-top: 3px;
+  width: 20%;
+  height: 25px;
+  background-color: #e13737;
+  border-radius: 5px;
+}
